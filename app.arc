@@ -3,11 +3,11 @@ grunge-test-dcbb
 
 @aws
 runtime nodejs18.x
-# concurrency 1
-# memory 1152
-# profile default
-# region ap-northeast-1
-# timeout 30
+concurrency 1
+memory 1152
+profile default
+region ap-northeast-1
+timeout 30
 
 @http
 /*
