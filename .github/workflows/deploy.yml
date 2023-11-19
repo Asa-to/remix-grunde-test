@@ -139,7 +139,7 @@ jobs:
         run: npm install
 
       - name: 🏗 Build
-        run: npm run build
+        run: npm run build & npm add -g pnpm
 
       - name: 🛠 Install Arc
         run: npm i -g @architect/architect
